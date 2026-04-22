@@ -91,9 +91,9 @@ with tabs[0]:
                     # Visualización en columnas
                     col_a, col_b = st.columns(2)
                     with col_a:
-                        mostrar_tabla_ordenada(df_cali, "📍 Cali (Límite 24h)")
+                        mostrar_tabla_ordenada(df_cali, "Cali (Límite 24h)")
                     with col_b:
-                        mostrar_tabla_ordenada(df_resto, "🌐 Otras Ciudades (Límite 48h)")
+                        mostrar_tabla_ordenada(df_resto, "Otras Ciudades (Límite 48h)")
 
                 else:
                     detalle_error = res.json().get('detail', 'Error desconocido en el servidor')

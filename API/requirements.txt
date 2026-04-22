@@ -6,3 +6,4 @@ xgboost
 streamlit
 requests
 python-multipart
+openpyxl
