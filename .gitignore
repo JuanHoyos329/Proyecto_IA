@@ -1,0 +1,5 @@
+API/__pycache__
+csv/
+Datasets/*
+EDA.ipynb
+ETL.ipynb

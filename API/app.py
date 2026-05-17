@@ -55,7 +55,7 @@ with tabs[0]:
                 files = {"file": (archivo_excel.name, archivo_excel.getvalue(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")}
                 
                 with st.spinner("Ejecutando ETL y generando predicciones..."):
-                    res = requests.post("http://127.0.0.1:8000/predecir_excel", files=files, timeout=30)
+                    res = requests.post("https://sistema-de-prediccion-logistica.onrender.com/predecir_excel", files=files, timeout=30)
                 
                 if res.status_code == 200:
                     resultado = res.json()
@@ -246,7 +246,7 @@ with tabs[1]:
         }
         
         try:
-            res = requests.post("http://127.0.0.1:8000/predecir", json=data)
+            res = requests.post("https://sistema-de-prediccion-logistica.onrender.com/predecir", json=data)
             if res.status_code == 200:
                 r = res.json()
                 
