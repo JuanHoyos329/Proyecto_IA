@@ -133,3 +133,7 @@ async def predecir_excel(file: UploadFile = File(...)):
 @app.get("/")
 def home():
     return {"mensaje": "API de carga masiva con ETL activo"}
+
+@app.head("/")
+def head_home():
+    return {}
