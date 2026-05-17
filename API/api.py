@@ -21,8 +21,7 @@ COLUMNAS_PARA_BORRAR = [
     "Despacho", "Cod. trans", "Código", "Identificación", "Nombres", "Fecha pedido",
     "Fecha facturado", "Hora facturado", "Fecha embalado", "Hora embalado", 
     "Fecha despachado", "Estado", "Dias entregado", "Cajas", "Corte", 
-    "Placa vehiculo", "Regional", "Line pick", "Fecha masivo", "Latitud", 
-    "Longitud", "Track", "Novedad", "Entregado", "Anotación", "Transportista", 
+    "Placa vehiculo", "Regional", "Line pick", "Fecha masivo", "Track", "Novedad", "Entregado", "Anotación", "Transportista", 
     "Tipo Docu", "Nro visita"
 ]
 
